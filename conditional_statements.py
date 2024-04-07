@@ -1,5 +1,5 @@
 #if...elif...else statement
-grade=40
+grade=50
 if grade>=90:
     print("Score is A")
 elif grade>=80:

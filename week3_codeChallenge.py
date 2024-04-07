@@ -18,10 +18,10 @@ large_power(550, 60)
 """Create a function that determines whether or not a number is divisible by ten. 
 A number is divisible by ten if the remainder of the number divided by 10 is 0
 """
-def divisible_by_ten(num):
-    result=num%10
+def divisible_by_ten(num): #function declaration
+    result=num%10          #modulus has been applied to see if the reminder is zero
     if result==0:
         print('True')
     else:
         print('False')
-divisible_by_ten(20)
+divisible_by_ten(20)       #calling the function by giving a variable num a value 
